@@ -4,10 +4,6 @@ import { ReportComponent } from './report/report.component';
 import { SurveyComponent } from './survey/survey.component';
 
 const routes: Routes = [
-
-  {path:'report', component: ReportComponent},
-  {path: '', pathMatch:'full', redirectTo: 'survey'},
-  {path: 'survey', component: SurveyComponent}
 ];
 
 @NgModule({
