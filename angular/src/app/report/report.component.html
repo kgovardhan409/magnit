@@ -1,0 +1,46 @@
+<div class="container">
+    <h2 class="h2 text-center">Survey Reports</h2>
+    <div class="row jusitfy-content-center py-3 ">
+        <div class="col-lg-9">
+            <div class="card shadow">
+                <div class="card-body">
+                    <div style="width:100%;">
+                        <canvas id="myChart" width="700" height="250" #mychart></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="row jusitfy-content-center py-3 ">
+        <div class="col-lg-6">
+            <div class="m-2">
+
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h4>Employee is sad/happy because of :</h4>
+                            <div class="h3">{{data[0].employeeEngagementOption | uppercase}}</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <div class="m-2">
+
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h4>Employee most happy during the week/day: </h4>
+                            <div class="h3">{{data[1].employeeEngagementOption | uppercase}}</div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>

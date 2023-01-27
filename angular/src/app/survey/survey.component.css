@@ -1,0 +1,12 @@
+.form-select.ng-touched.ng-invalid.ng-pristine {
+    border: 1px solid red;
+}
+
+label, input{
+    font-size: 20px;
+}
+
+
+/* .h-25{
+	height: 500px !important;
+} */
